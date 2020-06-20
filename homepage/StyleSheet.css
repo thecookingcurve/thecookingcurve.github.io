@@ -206,21 +206,7 @@
         border-top: 1px solid white;
       }
 
-      /* Search Container */
-      .search input[type=text] {
-        margin-top: -8px;
-        margin-right: 16px;
-        font-size: 17px;
-        font-family:  'Jost', sans-serif;
-        font-weight: 300;
-      }
-      .search{
-        color: slategray;
-        letter-spacing: 7px;
-        font-family:  'Jost', sans-serif;
-        font-weight: 400;
-        font-size: 15px;
-      }
+   
       /* When screen size is minimized */
       @media screen and (max-width: 960px) {
         .wrapper{
@@ -249,12 +235,6 @@
         .sep{
           display: none;
 
-        }
-        .search{
-          margin-top: -70px;
-          color: black;
-          text-align: center;
-          margin-bottom: 40px;
         }
       }
 
