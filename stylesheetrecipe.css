@@ -242,6 +242,23 @@
           margin-left: 50px;
           margin-right: 50px;
         }
+        .filters {
+          margin-left: -20px;
+          text-align: center;
+          font-family:  'Jost', sans-serif;
+          font-weight: 400;
+          font-size: 10px;
+          letter-spacing: 1px;
+          color: black;
+        }
+        .filters * {
+          display: inline-block;
+        }
+        .filters label {
+          line-height: normal;
+          cursor: pointer;
+          transition: all 0.1s;
+        }
 
 
 
