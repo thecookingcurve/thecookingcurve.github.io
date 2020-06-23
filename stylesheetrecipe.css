@@ -206,7 +206,7 @@
           display: grid;
           grid-template-columns: 1fr 1fr;
           align-items: center;
-          margin-left: -65px;
+          margin-left: -70px;
 
         }
         .recipe-image{
