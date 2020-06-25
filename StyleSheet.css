@@ -48,14 +48,13 @@
         margin-top: -2px;
         }
 
-      @media screen and (max-width: 600px) {
+     @media screen and (max-width: 600px) {
         .topnav a:not(.title) {display: none;}
         .topnav a.icon {
           float: right;
           display: block;
         }
       }
-
       @media screen and (max-width: 600px) {
         .topnav.responsive {position: relative;}
         .topnav.responsive .icon {
@@ -69,17 +68,16 @@
           text-align: left;
         }
       }
-
-
-      /* Using a border that has white border to create white space. */
+      /* White Space */
       .seperator{
         border: 5px solid white;
       }
-
-      /* Use a wrapper to make a fixed layout */
+      /* Main container - white space on left and right of screen*/
       .wrapper{
         width: 960px;
         margin: 0 auto;
+        color: white;
+      }
 
 
       /* Subheading and Title Container */
