@@ -12,7 +12,7 @@
 
       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-    
+
 
       /* Navigation Bar */
       .topnav {
@@ -115,9 +115,9 @@
       .featured-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 240px;
+        grid-template-rows: 220px 220px;
         column-gap: 10px;
-        
+        row-gap: 10px;
       }
       .so-image{
         width: 100%;
@@ -165,9 +165,19 @@
       .sep{
         border-top: 1px solid white;
       }
+      .words{
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: gray;
+        font-weight: 300;
+        letter-spacing: 20px;
 
-     
-     
+
+      }
+
+
+
       /* When screen size is minimized */
       @media screen and (max-width: 960px) {
         .wrapper{
@@ -217,7 +227,7 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i id="bars" class="fa fa-bars"></i>
         </a>
-        
+
         <a href="https://thecookingcurve.github.io/about.html">about</a>
         <a href="https://thecookingcurve.github.io/recipeindex.html">recipes</a>
         <a class="active" href="https://thecookingcurve.github.io/index.html">home</a>
@@ -227,7 +237,7 @@
       </header>
 
 
-    
+
 
       <!--Wrapper to Enclose the Website in 900px-->
 
@@ -246,39 +256,59 @@
         <hr class="seperator"/>
         <hr class="seperator"/>
         <hr class="seperator"/>
+        <hr class="seperator"/>
+        <hr class="seperator"/>
+        <hr class="seperator"/>
+
+
+        <div class="words">
+          <p>FOOD BLOG BY YASHVI</p>
+        </div>
+
+
+
+
+
 
       <hr class="sep"/>
-      
+
 
 
 
           <!--Featured Container contains image + hover over title of post + button-->
         <div class = "featured-container">
 
-          <div class ="section-one">
-            <img class="so-image" src="pre.jpg"/
+          <div class ="section-one" >
+
+            <img class="so-image" src="pre.jpg"/>
+
+
           </div>
 
           <div class ="section-one" >
+
             <img class="so-image" src="gal.jpg"/>
+
           </div>
 
           <div class ="section-one" >
+
             <img class="so-image" src="scones.jpg"/>
+
           </div>
 
           <div class ="section-one" >
+
             <img class="so-image" src="pancakes.jpg"/>
+
+
           </div>
 
-          
-        </div>
 
-        <!--Space between the featured and explore container-->
-        <hr class="seperator"/>
-        <hr class="sep"/>
-      
-        
+
+
+
+
     </div>
   </div>
 
@@ -291,15 +321,7 @@
           x.className = "topnav";
         }
       }
-    
+
       </script>
-
-
-
-  </body>
-
-</html>
-         
-
-
-    
+    </body>
+    </html>
