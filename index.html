@@ -115,7 +115,7 @@
       .featured-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 220px 220px;
+        grid-template-rows: 220px;
         column-gap: 10px;
         row-gap: 10px;
       }
@@ -186,9 +186,15 @@
         .featured-container{
           display: grid;
           grid-template-columns: 1fr 1fr;
-          grid-template-rows: 220px 220px 220px 220px;
+          grid-template-rows: 220px 220px;
 
         }
+        .words{
+          display: none;
+
+
+        }
+
       }
 
       @media screen and (max-width: 500px) {
@@ -207,12 +213,12 @@
           display: none;
 
         }
-        .search{
-          margin-top: -70px;
-          color: black;
-          text-align: center;
-          margin-bottom: 40px;
+        .words{
+          display: none;
+
+
         }
+      
       }
 
     </style>
@@ -262,7 +268,7 @@
 
 
         <div class="words">
-          <p>FOOD BLOG BY YASHVI</p>
+          <p>food blog by yashvi</p>
         </div>
 
 
